@@ -5,7 +5,7 @@ const convertedFirstArg = Number(firstArg);
  if (!isNaN(convertedFirstArg)){
     let i = 0;
     while (i < convertedFirstArg){
-        console.log( ` ${CText}`);
+        console.log( `${CText}`);
         i++;
     }
  }
