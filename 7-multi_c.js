@@ -1,10 +1,10 @@
 const firstArg = process.argv[2];
 const convertedFirstArg = Number(firstArg);
- let CText = "C is Fun";
+ let CText = "C is fun";
  function Multipleloop() {
- if(!isNaN(convertedFirstArg)){
+ if (!isNaN(convertedFirstArg)){
     let i = 0;
-    while(i < convertedFirstArg){
+    while (i < convertedFirstArg){
         console.log( ` ${CText}`);
         i++;
     }
